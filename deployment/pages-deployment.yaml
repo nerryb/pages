@@ -31,7 +31,7 @@ spec:
                   name: pages-config-map
                   key: PAGE_CONTENT
             - name: SPRING_DATASOURCE_URL
-              value: jdbc:mysql://pages-mysql/pages?useSSL=false
+              value: jdbc:mysql://pages-mysql/pages?useSSL=false&allowPublicKeyRetrieval=true
             - name: SPRING_DATASOURCE_USERNAME
               value: "root"
             - name: SPRING_DATASOURCE_PASSWORD
